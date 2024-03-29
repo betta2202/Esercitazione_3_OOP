@@ -1,7 +1,3 @@
-
-
-// Header guards
-
 #ifndef __COMPLEXNUMBER_H
 #define __COMPLEXNUMBER_H
 
@@ -30,9 +26,5 @@ ostream& operator<<(ostream& os, const ComplexNumber& num);
 ComplexNumber operator +(const ComplexNumber& num1, const ComplexNumber& num2);
 
 bool operator == (const ComplexNumber& num1, const ComplexNumber& num2);
-
-
-
-
 
 #endif
